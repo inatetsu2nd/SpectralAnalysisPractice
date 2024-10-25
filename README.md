@@ -30,10 +30,29 @@
 - `SpeAna11_1-6_practicaluse.ipynb`: 第11章1～6節、実践的な応用（続き）
 - `SpeAna12_1_Imaging.ipynb`: 第12章1節、イメージングの応用
 
-## ライブラリインポート用ファイル
-- `requirements.txt`: 必要なライブラリをインストールするためのファイル。このファイルをダウンロードし、Anacondaプロンプトで以下のコマンドを使用してライブラリをインストールしてください：
 
-1. `cd`コマンドを使用して`requirements.txt`ファイルがあるディレクトリに移動します：
-   ```bash
-   cd C:\Users\ユーザー名\Documents\PythonProjects\MyProject
-以下のコマンドを実行して、ファイルにリストされているすべてのライブラリをインストールします：
+### ライブラリインポート用ファイル
+- `requirements.txt`
+このファイルをダウンロード後、Anacondaプロンプトで`requirements.txt`ファイルがあるディレクトリに移動してください。
+例として、`requirements.txt`ファイルが`C:\Users\ユーザー名\Documents\PythonProjects\MyProject`フォルダ内にあると仮定します。
+以下の手順でライブラリをインストールできます。
+
+1. Anacondaプロンプトを開き、`cd`コマンドを使用して`requirements.txt`ファイルがあるディレクトリに移動します。
+`cd C:\Users\ユーザー名\Documents\PythonProjects\MyProject`
+
+
+2. 以下のコマンドを実行して、ファイルにリストされているすべてのライブラリをインストールします。
+`pip install -r requirements.txt`
+
+
+
+## 使用方法
+本リポジトリのコードを使用するには、Python 3.x および必要なライブラリがインストールされていることを確認してください。SpeAnaから始まるファイルはJupyter Notebook形式です。これをJupyter Notebookで開くことでコードを実行できます。
+
+## ファイルがダウンロードできない場合
+Githubから各種ファイルがダウンロードできない場合には、お手数ですがinatetsu@agr.nagoya-u.ac.jpまでご連絡ください。
+メールタイトルは【スペクトル解析【稲垣講義用】ファイルダウンロード】としてください。
+
+
+## 著者
+- [稲垣哲也] ([Researchmap](https://researchmap.jp/inatetsu25/))
