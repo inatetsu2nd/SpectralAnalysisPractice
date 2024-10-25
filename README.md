@@ -1,55 +1,39 @@
-# spectralanalysis
+# SpectralAnalysisPractice
 書籍：名大稲垣によるスペクトル解析に関する講義のプログラムとデータです
 
 ## 概要
-本書は、スペクトル解析の基礎から応用までを網羅した実践的なガイドです。
-Pythonを用いたデータ分析、ケモメトリクス、機械学習、イメージングデータへの適用など、スペクトル解析に関連する多岐にわたるトピックを扱います。
+本書は、スペクトル解析の基礎から応用までを網羅した実践的なガイドです。Pythonを用いたデータ分析、ケモメトリクス、機械学習、イメージングデータへの適用など、スペクトル解析に関連する多岐にわたるトピックを扱います。
 
-### フォルダ
-- `SpeAnamodule`: SpeAna_5_2_modules.ipynb章で使用するモジュール
-- `dataChapter2`: SpeAna_2_1_basic～SpeAna_2_5_arrayanddataframeで使用するデータ
-- `dataChapter5`: SpeAna_5_1_pretreatmentで使用するデータ
-- `dataChapter7`: SpeAna_7_practicaluseで使用するデータ
-- `dataChapter8`: SpeAna_8_Imagingで使用するデータ
+## フォルダ構成
+リポジトリには以下のフォルダが含まれています：
 
-### ファイル（各章で用いるプログラムデータ）
-- `SpeAna_2_1_basic.ipynb`
-- `SpeAna_2_2_function.ipynb`
-- `SpeAna_2_3_statistcs.ipynb`
-- `SpeAna_2_4_linearalgebra.ipynb`
-- `SpeAna_2_5_arrayanddataframe.ipynb`
-- `SpeAna_4_1_CLS_ILS.ipynb`
-- `SpeAna_4_2_PCA.ipynb`
-- `SpeAna_4_3_PLS.ipynb`
-- `SpeAna_5_1_pretreatment.ipynb`
-- `SpeAna_5_2_modules.ipynb`
-- `SpeAna_6_machinelearning.ipynb`
-- `SpeAna_7_practicaluse.ipynb`
-- `SpeAna_8_Imaging.ipynb`
+- `SpeAnamodule`: SpeAnaシリーズのモジュールファイル
+- `dataChapter10-11`: 第10章～第11章で使用するデータ
+- `dataChapter12`: 第12章で使用するデータ
+- `dataChapter3`: 第3章で使用するデータ
+- `dataChapter4`: 第4章で使用するデータ
+- `dataChapter8`: 第8章で使用するデータ
 
+## ファイル構成
+各ファイルは `SpeAna(章番号)_(節番号)_内容` の形式で命名されています。以下はそれぞれのファイルの概要です。
 
-### ライブラリインポート用ファイル
-- `requirements.txt`
-このファイルをダウンロード後、Anacondaプロンプトで`requirements.txt`ファイルがあるディレクトリに移動してください。
-例として、`requirements.txt`ファイルが`C:\Users\ユーザー名\Documents\PythonProjects\MyProject`フォルダ内にあると仮定します。
-以下の手順でライブラリをインストールできます。
+- `SpeAna02_3-4_basic.ipynb`: 第2章3～4節、基本的な解析方法
+- `SpeAna03_1-10_statistcs.ipynb`: 第3章1～10節、統計学の基礎
+- `SpeAna04_1-3_linearalgebraANDdataframe.ipynb`: 第4章1～3節、線形代数とデータフレーム
+- `SpeAna06_1_CLSandILS.ipynb`: 第6章1節、CLSとILS
+- `SpeAna07_1_PCA.ipynb`: 第7章1節、主成分分析（PCA）
+- `SpeAna07_2_PLS.ipynb`: 第7章2節、部分最小二乗回帰（PLS）
+- `SpeAna08_1-4_pretreatment.ipynb`: 第8章1～4節、前処理
+- `SpeAna08_5_modules.ipynb`: 第8章5節、モジュールの使用
+- `SpeAna09_1-6_machinelearning.ipynb`: 第9章1～6節、機械学習の応用
+- `SpeAna10_1-9_practicaluse.ipynb`: 第10章1～9節、実践的な応用
+- `SpeAna11_1-6_practicaluse.ipynb`: 第11章1～6節、実践的な応用（続き）
+- `SpeAna12_1_Imaging.ipynb`: 第12章1節、イメージングの応用
 
-1. Anacondaプロンプトを開き、`cd`コマンドを使用して`requirements.txt`ファイルがあるディレクトリに移動します。
-`cd C:\Users\ユーザー名\Documents\PythonProjects\MyProject`
+## ライブラリインポート用ファイル
+- `requirements.txt`: 必要なライブラリをインストールするためのファイル。このファイルをダウンロードし、Anacondaプロンプトで以下のコマンドを使用してライブラリをインストールしてください：
 
-
-2. 以下のコマンドを実行して、ファイルにリストされているすべてのライブラリをインストールします。
-`pip install -r requirements.txt`
-
-
-
-## 使用方法
-本リポジトリのコードを使用するには、Python 3.x および必要なライブラリがインストールされていることを確認してください。SpeAnaから始まるファイルはJupyter Notebook形式です。これをJupyter Notebookで開くことでコードを実行できます。
-
-## ファイルがダウンロードできない場合
-Githubから各種ファイルがダウンロードできない場合には、お手数ですがinatetsu@agr.nagoya-u.ac.jpまでご連絡ください。
-メールタイトルは【スペクトル解析【稲垣講義用】ファイルダウンロード】としてください。
-
-
-## 著者
-- [稲垣哲也] ([Researchmap](https://researchmap.jp/inatetsu25/))
+1. `cd`コマンドを使用して`requirements.txt`ファイルがあるディレクトリに移動します：
+   ```bash
+   cd C:\Users\ユーザー名\Documents\PythonProjects\MyProject
+以下のコマンドを実行して、ファイルにリストされているすべてのライブラリをインストールします：
