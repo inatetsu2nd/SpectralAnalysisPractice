@@ -50,7 +50,7 @@ Pythonを用いたデータ分析、ケモメトリクス、機械学習、イ�
 `pip install -r requirements.txt`
 
 ## データのダウンロード
-このページの右上の
+このページの右上（緑色）の<>Codeボタンをクリックし、
 
 SpeAnaから始まるファイルはJupyter Notebook形式です。これをJupyter Notebookで開くことでコードを実行できます。
 
