@@ -7,7 +7,7 @@
 本書は、スペクトル解析の基礎から応用までを網羅した実践的なガイドです。
 
 Pythonを用いたデータ分析、ケモメトリクス、機械学習、イメージングデータへの適用など、スペクトル解析に関連する多岐にわたるトピックを扱います。
-- `SpeAna02_3-4_basic.ipynb`: 第2章3～4節、pythonの基礎
+- 第1章　`スペクトル解析の基礎知識`
 - `SpeAna03_1-10_statistcs.ipynb`: 第3章1～10節、統計学の基礎とpythonでの実装
 - `SpeAna04_1-3_linearalgebraANDdataframe.ipynb`: 第4章1～3節、線形代数とデータフレーム
 - `SpeAna06_1_CLSandILS.ipynb`: 第6章1節、CLSとILS
