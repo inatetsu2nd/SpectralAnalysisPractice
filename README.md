@@ -45,9 +45,10 @@ Pythonを用いたデータ分析、ケモメトリクス、機械学習、イ�
 - `SpeAna08_1-4_pretreatment.ipynb`: 第8章1～4節、スペクトル前処理
 - `SpeAna08_5_modules.ipynb`: 第8章5節、モジュールの使用
 - `SpeAna09_1-6_machinelearning.ipynb`: 第9章1～6節、機械学習の応用
-- `SpeAna10_1-9_practicaluse.ipynb`: 第10章1～9節、実践的な応用
-- `SpeAna11_1-6_practicaluse.ipynb`: 第11章1～6節、実践的な応用（続き）
-- `SpeAna12_1_Imaging.ipynb`: 第12章1節、イメージングの応用
+- `SpeAna10_1-9_practicaluse.ipynb`: 第10章1～9節、スペクトル操作の実践
+- `SpeAna11_1-6_practicaluse.ipynb`: 第11章1～6節、ケモメトリクスと機械学習の実践
+- `SpeAna12_1_Imaging.ipynb`: 第12章1節、イメージングへの応用
+
 
 
 ### ライブラリインポート用ファイル
