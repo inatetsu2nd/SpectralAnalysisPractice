@@ -11,3 +11,4 @@ spectral==0.23.1
 opencv-python==4.8.1.78
 Pillow==10.2.0
 tqdm==4.65.0
+scikit-image==0.24.0
