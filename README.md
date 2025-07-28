@@ -49,20 +49,16 @@ pip install -r requirements.txt
 2. 以下のコマンドを実行して、ファイルにリストされているすべてのライブラリをインストールします。
 `pip install -r requirements.txt`
 
-## データのダウンロード
-このページの右上（緑色）の<>Codeボタンをクリックし、「Dowonload Zip」をクリックするとデータをダウンロードできます。
+### Downloading the Data
+Click the green `< > Code` button on the top right of this page and select **Download ZIP**.
 
+### How to Use
+Ensure Python 3.x and all required libraries are installed.  
+Open files starting with `SpeAna` in Jupyter Notebook to run the code.
 
-## 使用方法
-本リポジトリのコードを使用するには、Python 3.x および必要なライブラリがインストールされていることを確認してください。
+### If You Cannot Download Files
+Please contact:  
+`inatetsu@agr.nagoya-u.ac.jp`
 
-SpeAnaから始まるファイルはJupyter Notebook形式です。これをJupyter Notebookで開くことでコードを実行できます。
-
-## ファイルがダウンロードできない場合
-Githubから各種ファイルがダウンロードできない場合には、お手数ですがinatetsu@agr.nagoya-u.ac.jpまでご連絡ください。
-
-メールタイトルは【スペクトル解析実践ガイド【稲垣講義用】ファイルダウンロードについて】としてください。
-
-
-## 著者
-- [稲垣哲也] ([Researchmap](https://researchmap.jp/inatetsu25/))
+### Author
+- [Tetsuya Inagaki](https://researchmap.jp/inatetsu25/)
