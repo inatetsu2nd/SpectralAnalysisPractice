@@ -37,16 +37,15 @@ Use the `requirements.txt` file:
 cd C:\Users\YourUsername\Documents\PythonProjects\MyProject
 pip install -r requirements.txt
 ```
-- `requirements.txt`
-このファイルをダウンロード後、Anacondaプロンプトで`requirements.txt`ファイルがあるディレクトリに移動してください。
-例として、`requirements.txt`ファイルが`C:\Users\ユーザー名\Documents\PythonProjects\MyProject`フォルダ内にあると仮定します。
-以下の手順でライブラリをインストールできます。
+- `requirements.txt`  
+After downloading this file, open the Anaconda Prompt and navigate to the directory where the `requirements.txt` file is located.  
+For example, suppose the file is located in `C:\Users\YourUsername\Documents\PythonProjects\MyProject`.  
+You can install the listed libraries by following these steps:
 
-1. Anacondaプロンプトを開き、`cd`コマンドを使用して`requirements.txt`ファイルがあるディレクトリに移動します。
+1. Open the Anaconda Prompt and use the `cd` command to move to the directory containing `requirements.txt`:  
 `cd C:\Users\ユーザー名\Documents\PythonProjects\MyProject`
 
-
-2. 以下のコマンドを実行して、ファイルにリストされているすべてのライブラリをインストールします。
+2. Run the following command to install all libraries listed in the file:  
 `pip install -r requirements.txt`
 
 ### Downloading the Data
