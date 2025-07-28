@@ -36,7 +36,7 @@ Use the `requirements.txt` file:
 ```bash
 cd C:\Users\YourUsername\Documents\PythonProjects\MyProject
 pip install -r requirements.txt
-
+```
 - `requirements.txt`
 このファイルをダウンロード後、Anacondaプロンプトで`requirements.txt`ファイルがあるディレクトリに移動してください。
 例として、`requirements.txt`ファイルが`C:\Users\ユーザー名\Documents\PythonProjects\MyProject`フォルダ内にあると仮定します。
